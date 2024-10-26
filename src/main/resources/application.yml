@@ -1,0 +1,10 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8082
+
+# OSS 配置
+oss:
+  endpoint: https://oss-cn-hangzhou.aliyuncs.com
+  access-key-id: ${ACCESS_KEY_ID}
+  access-key-secret: ${ACCESS_KEY_SECRET}
+  bucket: ${BUCKET}
